@@ -1,18 +1,14 @@
 \documentclass{beamer}
-\usepackage[latin1]{inputenc}
+
 \usepackage{url}
-\usepackage[round]{natbib}
 \usetheme{Boadilla}
 \setbeamertemplate{items}[ball] 
 \setbeamertemplate{blocks}[rounded][shadow=true] 
 \usecolortheme[RGB={115,77,50}]{structure} 
 \title{Title}
 \author{J. Mansfield}
-    \institute{Regis~University\\ 
-                    3333~Regis~Boulevard\\
-                    Denver~Colorado~80221-1099\\                    
-                    \url{http://www.regis.edu/} 
-}
+    \institute{Regis~University} 
+
 \begin{document}
 
 \begin{frame}
@@ -20,14 +16,34 @@
 \end{frame}
 
 \begin{frame}
-\begin{block}{Heading}
-I am the text located on the first content slide
+\begin{block}{Vocation}
+ ``What a long time it can take to become the person one has always been!"~\cite{palmer}
 \end{block}
-HI there
+
 \end{frame}
 
 \begin{frame}
-And I am the text located in the second content slide
+\begin{block}{A Life is Made of Days}
+``Each day is an opportunity to say something honestly, to make somthing more beautiful, to create somthing precious, to give a gift only we can provide for the family of the earth. To dedicate a single act to the healing of others is a day well lived.``~\cite{muller}
+\end{block}
 \end{frame}
 
+
+\begin{frame}
+\begin{block}{Mark 12}
+\begin{verse}
+28 One of the teachers of the law† came and heard them debating. Noticing that Jesus had given them a good answer, he asked him, “Of all the commandments, which is the most important?” \\
+29 “The most important one,” answered Jesus, “is this: ‘Hear, O Israel, the Lord our God, the Lord is one.\\
+30 Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.’\\
+31 The second is this: ‘Love your neighbor as yourself.’ There is no commandment greater than these.” \\
+\end{verse}
+\cite[Kindle Locations 95560-95569]{niv}
+\end{block}
+\end{frame}
+
+\begin{frame}
+    \nocite{*}
+    \bibliographystyle{apalike}
+    \bibliography{cite}
+\end{frame}
 \end{document}
