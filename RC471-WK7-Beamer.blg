@@ -3,47 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RC471-WK7-Beamer.aux
 The style file: apalike.bst
 Database file #1: cite.bib
-Warning--to sort, need author, editor, or key in muller
-Warning--empty author and editor in muller
 You've used 3 entries,
             1935 wiz_defined-function locations,
-            486 strings with 4082 characters,
-and the built_in function-call counts, 864 in all, are:
-= -- 77
-> -- 20
-< -- 2
-+ -- 6
-- -- 6
-* -- 63
-:= -- 152
+            487 strings with 4094 characters,
+and the built_in function-call counts, 895 in all, are:
+= -- 82
+> -- 27
+< -- 3
++ -- 8
+- -- 8
+* -- 60
+:= -- 168
 add.period$ -- 9
 call.type$ -- 3
-change.case$ -- 16
+change.case$ -- 17
 chr.to.int$ -- 3
-cite$ -- 6
-duplicate$ -- 44
-empty$ -- 77
-format.name$ -- 10
-if$ -- 171
+cite$ -- 3
+duplicate$ -- 42
+empty$ -- 70
+format.name$ -- 13
+if$ -- 174
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 5
+missing$ -- 6
 newline$ -- 18
-num.names$ -- 6
-pop$ -- 24
+num.names$ -- 9
+pop$ -- 23
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 19
 quote$ -- 0
-skip$ -- 29
+skip$ -- 31
 stack$ -- 0
-substring$ -- 37
+substring$ -- 36
 swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 12
-warning$ -- 2
-while$ -- 4
+warning$ -- 0
+while$ -- 6
 width$ -- 0
-write$ -- 39
-(There were 2 warnings)
+write$ -- 40
